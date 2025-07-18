@@ -8,7 +8,7 @@ const ProjectTimelineCard = props => {
 
   return (
     <div className="project-container">
-      <img src={imageUrl} alt={projectTitle} className="img" />
+      <img src={imageUrl} alt='project' className="img" />
       <div className="heading-container">
         <h1 className="heading">{projectTitle}</h1>
         <div className="duration">
